@@ -1,0 +1,40 @@
+# Node modules
+backend/node_modules/
+client/node_modules/
+
+# Lock files
+backend/package-lock.json
+client/package-lock.json
+
+# TypeScript build artifacts
+backend/tsconfig.tsbuildinfo
+client/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Environment files
+.env*
+backend/.env.local
+client/.env.local
+
+# Testing
+/coverage
+
+# Next.js specific
+client/.next/
+client/out/
+
+# Vercel
+.vercel
+
+# System & misc
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore Next.js generated file
+client/next-env.d.ts
